@@ -71,7 +71,7 @@ distância = (t / 2) × 0.0343
   - MongoDB (historical & internal)
   - STH-Comet
 - **Postman**
-  - Coleção: `FIWARE Descomplicado.postman_collection.json`
+  - Coleção: `GSpostmanCollection.json`
   - Inclui endpoints de **Health Check**, **Provisionamento de Dispositivo**, **Subscrição no Orion** e **Consulta Histórica via STH-Comet**
 
 ---
@@ -86,7 +86,7 @@ docker compose up -d
 ```
 
 ### 2. Carregar os Dispositivos via Postman
-1. Importar a coleção `FIWARE postman_collection.json`
+1. Importar a coleção `GSpostmanCollection.json`
 2. Executar as requisições na seguinte ordem:
    - Health Check do IoT Agent (`GET :4041/iot/about`)
    - Criar Service Group (`POST :4041/iot/services`)
@@ -107,7 +107,8 @@ docker compose up -d
 
 - **Simulação Wokwi:** https://wokwi.com/projects/447997407261928449
 - **Repositório GitHub:** https://github.com/Grego-Privado/GS-EDGE-2/edit/main/README.md
-- **Coleção Postman:** `./Postman/ FIWARE postman_collection.json`
+- **Coleção Postman:** `./GSpostmanCollection.json`
+- **Vídeo PoC:** https://youtu.be/mTrRTYTdwSE
 
 ---
 
